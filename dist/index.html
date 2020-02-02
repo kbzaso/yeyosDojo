@@ -11,43 +11,53 @@
 <body>
 
 
-<div class="off-canvas position-right" id="offCanvas" data-off-canvas>
+
+
+<div class="off-canvas position-right off-canvas-menu" id="offCanvas" data-off-canvas>
   <!-- Your menu or Off-canvas content goes here -->
-  <!-- <ul class="dropdown menu" data-dropdown-menu style="display: flex; justify-content: flex-end;">
-    <li>
-      <a href="#0">Quienes Somos</a>
-      <ul class="menu">
-        <li><a href="#0">Dojo Lucha</a></li>
-        <li><a href="#0">Profesores</a></li>
-      </ul>
-    </li>
-    <li><a href="#0"><i class="fi-list"></i> <span>Horarios</span></a></li>
-    <li><a href="#0"><i class="fi-list"></i> <span>Planes</span></a></li>
-    <li><a href="#0"><i class="fi-list"></i> <span>Eventos</span></a></li>
-    <li><a href="#0"><i class="fi-list"></i> <span>Videos</span></a></li>
+  <div class="grid-container contenido-offcanvas">
+    <div class="grid-x">
+      <!-- LOGOTIPO -->
+        <div class="cell small-12 text-center padding-top-2">
+          <a href="#header" data-smooth-scroll>
+            <img class="logo" src="assets/img/logo-yeyos@2x.png" alt="Logotipo Yeyos Dojo 2020">
+          </a>
+        </div>
   
-    <li><a href="#0"><i class="fi-list"></i> <span>Contacto</span></a></li>
-  </ul>
-   -->
+      <div class="cell small-12 ">
+      <!-- Close button -->
+         <button class="close-button" aria-label="Close menu" type="button" data-close>
+           <span aria-hidden="true">&times;</span>
+         </button>
   
-  
-  
-  <!-- Close button -->
-     <button class="close-button" aria-label="Close menu" type="button" data-close>
-       <span aria-hidden="true">&times;</span>
-     </button>
-  
-     <!-- Menu -->
-     <ul class="vertical menu" data-dropdown-menu data-smooth-scroll style="display: flex; justify-content: flex-end;">
-  
-       <li> <a href="#0">Quienes Somos</a></li>
-       <li><a href="#quienes-somos" data-smooth-scroll>Dojo Lucha</a></li>
-       <li><a href="#profesores" data-smooth-scroll>Profesores</a></li>
-       <li><a href="#quienes-somos" data-smooth-scroll><i class="fi-list"></i> <span>Horarios</span></a></li>
-       <li><a href="#0"><i class="fi-list"></i> <span>Planes</span></a></li>
-       <li><a href="#0"><i class="fi-list"></i> <span>Eventos</span></a></li>
-       <li><a href="#0"><i class="fi-list"></i> <span>Videos</span></a></li>
-     </ul>
+         <!-- Menu -->
+         <ul class="vertical menu padding-top-1">
+           <li> <a href="#quienes-somos" data-smooth-scroll>Quienes Somos</a></li>
+           <li><a href="#profesores" data-smooth-scroll>Profesores</a></li>
+           <li><a href="#horarios" data-smooth-scroll><i class="fi-list"></i> <span>Horarios</span></a></li>
+           <li><a href="#planes" data-smooth-scroll><i class="fi-list"></i> <span>Planes</span></a></li>
+           <li><a href="#mapa" data-smooth-scroll><i class="fi-list"></i> <span>Ubicación</span></a></li>
+           <li><a href="#footer" data-smooth-scroll><i class="fi-list"></i> <span>Contacto</span></a></li>
+         </ul>
+         <hr></hr>
+      </div>
+      <!-- PUNTOS DE CONTACTO -->
+      <div class="cell small-12 padding-left-1 ">
+          <h3>Contacto</h3>
+          <ul>
+            <li>Bío Bío 561, Santiago.</li>
+            <li><a href="tel:+56991291468">+56 23285 0591</a></li>
+            <li>hola@yeyosdojo.cl</li>
+          </ul>
+          <h5 class="margin-bottom-0">Redes sociales</h5>
+          <ul class="no-bullet rrss">
+            <li><a href="https://www.facebook.com/yeyosdojo/"><i class="fab fa-facebook""></i></a></li>
+            <li><a href="https://www.instagram.com/yeyos_dojo/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCb_TUUfER_7QVmX_g0OvB5A"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="off-canvas-content" data-off-canvas-content>
   
@@ -55,29 +65,30 @@
     <div class="grid-x grid-padding-x grid-padding-y sticky" data-margin-top="0" style="width:100%;  background:white;" data-top-anchor="1"  data-sticky>
   
       <!-- LOGOTIPO -->
-        <div class="cell small-6 medium-2 medium-offset-2 padding-top-2 hide-for-small show-for-medium">
+        <div class="cell medium-2 padding-top-2 hide-for-small show-for-medium">
           <a href="#header" data-smooth-scroll>
             <img class="logo" src="assets/img/logo-yeyos@2x.png" alt="Logotipo Yeyos Dojo 2020">
           </a>
+        </div>
+  
+  <!-- MENU DE NAVEGACION -->
+        <div class="cell medium-10 margin-top-1 hide-for-small show-for-medium">
+          <ul class="menu menu-hover-lines" data-smooth-scroll >
+            <li><a href="#quienes-somos" data-smooth-scroll>Quienes Somos</a></li>
+            <li><a href="#profesores" data-smooth-scroll>Profesores</a></li>
+            <li><a href="#horarios" data-smooth-scroll>Horarios</a></li>
+            <li><a href="#planes" data-smooth-scroll>Planes</a></li>
+            <li><a href="#mapa" data-smooth-scroll>Ubicación</a></li>
+            <li><a href="#footer" data-smooth-scroll>Contacto</a></li>
+          </ul>
+        </div>
+  
       </div>
   
-      <!-- MENU DE NAVEGACION -->
-      <div class="cell small-12 medium-8 show-for-medium padding-top-3" >
-        <ul class="menu" data-smooth-scroll style="display: flex; justify-content: center;">
-          <li><a href="#quienes-somos"><i class="fi-list"></i><span> Quienes Somos</span></a></li>
-          <li><a href="#profesores"><i class="fi-list"></i><span> Profesores</span></a></li>
-          <li><a href="#horarios"><i class="fi-list"></i> <span>Horarios</span></a></li>
-          <li><a href="#planes"><i class="fi-list"></i> <span>planes</span></a></li>
-          <li><a href="#0"><i class="fi-list"></i> <span>Eventos</span></a></li>
-          <li><a href="#footer"><i class="fi-list"></i> <span>Contacto</span></a></li>
-        </ul>
-      </div>
-  
-    </div>
-  
+      <!-- BOTON MENU SMALL DEVICE -->
     <div class="grid-x">
-      <div class="cell small-12 show-for-small-only" >
-        <button class="button big expanded" type="button" data-toggle="offCanvas">MENU</button>
+      <div class="cell small-12 show-for-small-only position-fixed-top" >
+        <button class="button big expanded " type="button" data-toggle="offCanvas"><h2>MENU</h2></button>
       </div>
     </div>
   
@@ -205,8 +216,10 @@
       </div>
   
     </div>
+  
+  <!-- 
     <div class="grid-x grid-margin-x grid-padding-y">
-      <!-- NIÑO POLLA -->
+  
       <div class="cell medium-4 medium-offset-2">
         <div class="card card-product">
           <div class="card-product-img-wrapper">
@@ -221,7 +234,7 @@
         </div>
       </div>
   
-      <!-- AZAGOTH-->
+  
       <div class="cell medium-4">
         <div class="card card-product">
           <div class="card-product-img-wrapper">
@@ -235,7 +248,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+  
   </div>
   <div class="grid-container full">
     <div class="grid-x">
@@ -259,32 +273,31 @@
     </div>
   </div>
   
-
-  <div class="grid-container full footer" id="footer">
-    <div class="grid-x">
-      <div class="cell medium-2 medium-offset-2 padding-left-2 padding-right-2 padding-top-3">
-            <img src="assets/img/logo-yeyos@2x.png" alt="">
+  <div class="grid-container full footer " id="footer">
+    <div class="grid-x grid-padding-y">
+  
+      <div class="cell small-12 medium-6 medium-offset-1 large-offset-2 large-6 padding-left-2 padding-right-2 padding-top-2">
+        <h3>Yeyos Dojo</h3>
+        <p>Es el primer centro de entrenamiento de Lucha Libre Profesional en Chile, que trabaja bajo el paradigma de entrenamiento japonés. Nos focalizamos en que nuestros alumnos y alumnas puedan cumplir sus objetivos a través del arduo trabajo, constancia y respeto al deporte. </p>
+        <h5><i class="fas fa-fire"></i> ¡Que el espirítu de lucha nunca se apague! <i class="fas fa-fire"></i></h5>
       </div>
   
-      <div class="cell small-12 medium-4 padding-left-2 padding-top-2">
-          <h3>Yeyos Dojo</h3>
-          <p>Lorem ipsum dolor sit amet,vsdw vconc sectetur adipisicing elit. Fugiat quae soluta, dignissimos, recusandae magni minus architecto expedita dolorem eum omnis fugit obcaecati iusto, sunt a autem laboriosam provident dolores accusamus!</p>
-      </div>
+      <div class="cell small-12 medium-4 large-2 padding-left-2 padding-top-2 ">
+        <h3>Contacto</h3>
+        <ul class="no-bullet">
+          <li><i class="fas fa-map-marker-alt"></i> Bío Bío 561, Santiago. Chile</li>
+          <li><i class="fas fa-phone-alt"></i> <a href="tel:+56991291468">+56 2 32850591</a></li>
+          <li><i class="far fa-envelope"></i> hola[arroba]yeyosdojo.cl</li>
+        </ul>
   
-      <div class="cell small-12 medium-2 padding-left-2  padding-top-2">
-          <h3>Contacto</h3>
-          <ul>
-            <li>Bío Bío 561, Santiago.</li>
-            <li><a href="tel:+56991291468">+56 23285 0591</a></li>
-            <li>hola@yeyosdojo.cl</li>
-          </ul>
-          <hr></hr>
-          <h5 class="margin-bottom-0">Redes Sociales</h5>
-          <ul class="no-bullet rrss">
-            <a href="https://www.facebook.com/yeyosdojo/"><li><i class="fi-social-facebook"></i></li></a>
-            <a href="https://www.instagram.com/yeyos_dojo/"><li><i class="fi-social-instagram"></i></li></a>
-            <a href="https://www.youtube.com/channel/UCb_TUUfER_7QVmX_g0OvB5A"><li><i class="fi-social-youtube"></i></li></a>
-          </ul>
+        <ul class="no-bullet rrss">
+          <li><a href="https://www.facebook.com/yeyosdojo/"><i class="fab fa-facebook"></i></a> </li>
+          <li><a href="https://www.instagram.com/yeyos_dojo/"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCb_TUUfER_7QVmX_g0OvB5A"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="http://www.m.me/yeyosdojo"><i class="fab fa-facebook-messenger"></i></a></li>
+  
+  
+        </ul>
       </div>
   
     </div>
@@ -321,7 +334,7 @@
 </div>
 
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Ubuntu:400,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/icons/foundation-icons.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
 <script src="assets/js/app.js"></script>
 </body>
 </html>

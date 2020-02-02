@@ -13,13 +13,14 @@
 
 {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
 
-<div class="off-canvas position-right" id="offCanvas" data-off-canvas>
+
+
+<div class="off-canvas position-right off-canvas-menu" id="offCanvas" data-off-canvas>
   <!-- Your menu or Off-canvas content goes here -->
   {{>off-canvas}}
 </div>
 <div class="off-canvas-content" data-off-canvas-content>
   {{>body}}
-
   {{>footer}}
 
 <!-- FORMULARIO DE CONTACTO -->
@@ -53,7 +54,7 @@
 </div>
 
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Ubuntu:400,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{root}}assets/icons/foundation-icons.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
 <script src="{{root}}assets/js/app.js"></script>
 </body>
 </html>
