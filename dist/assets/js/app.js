@@ -22497,7 +22497,7 @@ __webpack_require__(/*! foundation-sites */ "./node_modules/foundation-sites/dis
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation();
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation(); // CERRAR MENU OFF CANVAS
 
-jquery__WEBPACK_IMPORTED_MODULE_0___default()('#offCanvas li a').click(function () {
+jquery__WEBPACK_IMPORTED_MODULE_0___default()('#offCanvas a').click(function () {
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('#offCanvas').foundation('close');
 }); // // closes the panel on click outside
 // $(document).mouseup(function (e) {

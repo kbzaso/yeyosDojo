@@ -20,7 +20,7 @@ $(document).foundation();
 $(document).foundation();
 
 // CERRAR MENU OFF CANVAS
-$('#offCanvas li a').click(() => {
+$('#offCanvas a').click(() => {
   $('#offCanvas').foundation('close')
 })
 
