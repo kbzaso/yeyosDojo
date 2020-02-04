@@ -11,9 +11,12 @@
           <a href="#" data-open="guanchulo"><img src="{{root}}assets/img/profesores/guanchulo.jpg"></a>
         </div>
         <div class="card-section">
-          <a href="#"><h3 class="card-product-name">Guanchulo</h3></a>
-          <h5 class="card-product-price">Head Coach</h5>
-          <p class="card-product-description">Lornem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+          <a href="#" data-open="guanchulo"><h3 class="card-product-name">{{guanchulo.nombre}}</h3></a>
+          <h5 class="card-product-price">{{guanchulo.cargo}}</h5>
+          <section class="paises">
+            <span class="flag-icons CL"></span> <span class="flag-icons PE"></span> <span class="flag-icons BO"></span> <span class="flag-icons TW"></span>  <span class="flag-icons SG"></span> <span class="flag-icons JP"></span>
+          </section>
+          <p class="card-product-description text-truncate">{{guanchulo.descripcion}}</p>
         </div>
       </div>
 
@@ -22,13 +25,16 @@
     <div class="cell medium-4">
       <div class="card card-product">
         <div class="card-product-img-wrapper">
-          <a class="button expanded text-uppercase">VER MÁS</a>
-          <a href="#"><img src="{{root}}assets/img/profesores/alejandroSaez.jpg"></a>
+          <a data-open="alejandro" class="button expanded text-uppercase">VER MÁS</a>
+          <a data-open="alejandro"><img src="{{root}}assets/img/profesores/alejandroSaez.jpg"></a>
         </div>
         <div class="card-section">
-          <a href="#"><h3 class="card-product-name">Alejandro Sáez</h3></a>
-          <h5 class="card-product-price">Coach</h5>
-          <p class="card-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+          <a data-open="alejandro"><h3 class="card-product-name">{{alejandro-saez.nombre}}</h3></a>
+          <h5 class="card-product-price">{{alejandro-saez.cargo}}</h5>
+          <section class="paises">
+            <span class="flag-icons CL"></span> <span class="flag-icons PE"></span> <span class="flag-icons MX"></span> <span class="flag-icons AR"></span> <span class="flag-icons BR"></span>  <span class="flag-icons JP"></span> <span class="flag-icons US"></span>
+          </section>
+          <p class="card-product-description text-truncate">{{alejandro-saez.descripcion}}</p>
         </div>
       </div>
 
@@ -37,13 +43,16 @@
     <div class="cell medium-4">
       <div class="card card-product">
         <div class="card-product-img-wrapper">
-          <a class="button expanded text-uppercase">VER MÁS</a>
-          <a href="#"><img src="{{root}}assets/img/profesores/zatara.jpg"></a>
+          <a class="button expanded text-uppercase" data-open="zatara">VER MÁS</a>
+          <a data-open="zatara"><img src="{{root}}assets/img/profesores/zatara.jpg"></a>
         </div>
         <div class="card-section">
-          <a href="#"><h3 class="card-product-name">Zatara</h3></a>
-          <h5 class="card-product-price">Coach</h5>
-          <p class="card-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+          <a data-open="zatara"><h3 class="card-product-name">{{zatara.nombre}}</h3></a>
+          <h5 class="card-product-price">{{zatara.cargo}}</h5>
+          <section class="paises">
+            <span class="flag-icons  CL"></span> <span class="flag-icons PE"></span> <span class="flag-icons MX"></span> <span class="flag-icons US"></span>
+          </section>
+          <p class="card-product-description text-truncate">{{zatara.descripcion}}</p>
         </div>
       </div>
     </div>
@@ -56,13 +65,16 @@
     <div class="cell medium-4 medium-offset-2">
       <div class="card card-product">
         <div class="card-product-img-wrapper">
-          <a class="button expanded text-uppercase">VER MÁS</a>
-          <a href="#"><img src="{{root}}assets/img/profesores/zg.jpg"></a>
+          <a data-open="juan" class="button expanded text-uppercase">VER MÁS</a>
+          <a data-open="juan" ><img src="{{root}}assets/img/profesores/zg.jpg"></a>
         </div>
         <div class="card-section">
-          <a href="#"><h3 class="card-product-name">Juan Contreras</h3></a>
-          <h5 class="card-product-price">Coach</h5>
-          <p class="card-product-description">Lorem ipsum d olor sitamet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+          <a data-open="juan"><h3 class="card-product-name">{{juan.nombre}}</h3></a>
+          <h5 class="card-product-price">{{juan.cargo}}</h5>
+          <section class="paises">
+            <span class="flag-icons  CL"></span>
+          </section>
+          <p class="card-product-description text-truncate">{{juan.descripcion}}</p>
         </div>
       </div>
     </div>
@@ -71,16 +83,24 @@
     <div class="cell medium-4">
       <div class="card card-product">
         <div class="card-product-img-wrapper">
-          <a class="button expanded text-uppercase">VER MÁS</a>
-          <a href="#"><img src="{{root}}assets/img/profesores/azagoth.jpg"></a>
+          <a data-open="azagoth" class="button expanded text-uppercase">VER MÁS+</a>
+          <a data-open="azagoth"><img src="{{root}}assets/img/profesores/azagoth.jpg"></a>
         </div>
         <div class="card-section">
-          <a href="#"><h3 class="card-product-name">AZAGOTH</h3></a>
-          <h5 class="card-product-price">Coach Promo</h5>
-          <p class="card-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+          <a data-open="azagoth"><h3 class="card-product-name">{{azagoth.nombre}}</h3></a>
+          <h5 class="card-product-price">{{azagoth.cargo}}</h5>
+          <section class="paises">
+            <span class="flag-icons  CL"></span>
+          </section>
+          <p class="card-product-description text-truncate">{{azagoth.descripcion}}</p>
         </div>
       </div>
     </div>
   </div>
 
 </div>
+{{>profesor-guanchulo}}
+{{>profesor-zatara}}
+{{>profesor-alejandro}}
+{{>profesor-juan}}
+{{>profesor-azagoth}}

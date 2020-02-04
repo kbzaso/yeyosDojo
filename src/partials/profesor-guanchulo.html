@@ -3,12 +3,28 @@
     <span aria-hidden="true">&times;</span>
   </button>
 
-  <h1>Guanchulo</h1>
-  <img src="{{root}}assets/img/profesores/guanchulo.jpg">
-  <p class="lead">Your couch. It is mine.</p>
-  <p>I'm a co</p>
+  <h1>{{guanchulo.nombre}}</h1>
+  <p class="lead"><i class="fas fa-angle-right"></i> {{guanchulo.cargo}}</p>
+  <img src="{{root}}assets/img/profesores/guanchulo2.jpeg" alt="Diego en DDT Japón">
+
+  <p class="margin-top-1">{{guanchulo.descripcion}}</p>
+
+  <ul class="no-bullet">
+    <li><b>Ha trabajado para empresas como:</b> {{guanchulo.empresas}}</li><br>
+    <li><b>Tours:</b> {{guanchulo.paises}}</li>
+    <li><span class="flag-icons  CL"></span>  <span class="flag-icons PE"></span> <span class="flag-icons BO"></span>  <span class="flag-icons TW"></span>  <span class="flag-icons SG"></span>  <span class="flag-icons JP"></span></li>
+
+  </ul>
+  <h5>Redes Sociales</h5>
+  <ul class="no-bullet rrss">
+    <li><a href="{{guanchulo.facebook}}"><i class="fab fa-facebook"></i></a> </li>
+    <li><a href="{{guanchulo.instagram}}"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="{{guanchulo.twitter}}"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="{{guanchulo.messanger}}"><i class="fab fa-facebook-messenger"></i></a></li>
+  </ul>
+
 
   <button class="button primary expanded " aria-label="Close menu" type="button" data-close>
-    <span aria-hidden="true">CERRAR</span>
+    <span aria-hidden="true" class="cerrar"><b><i class="fas fa-times"></i> CERRAR</b></span>
   </button>
 </div>

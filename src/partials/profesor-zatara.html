@@ -1,0 +1,29 @@
+<div class="reveal" id="zatara" data-reveal>
+  <button class="close-button" aria-label="Close menu" type="button" data-close>
+    <span aria-hidden="true">&times;</span>
+  </button>
+
+  <h1>{{zatara.nombre}}</h1>
+  <p class="lead"><i class="fas fa-angle-right"></i> {{zatara.cargo}}</p>
+
+  <img src="{{root}}assets/img/profesores/zatara2.jpg" alt="Zatara en WWE">
+
+  <p class="margin-top-1">{{zatara.descripcion}}</p>
+
+  <ul class="no-bullet">
+    <li><b>Ha trabajado para empresas como:</b> {{zatara.empresas}}</li><br>
+    <li><b>Tours:</b> {{zatara.paises}}</li>
+    <li><span class="flag-icons  CL"></span> <span class="flag-icons PE"></span> <span class="flag-icons MX"></span> <span class="flag-icons US"></span></li>
+  </ul>
+  <h5>Redes Sociales</h5>
+  <ul class="no-bullet rrss">
+    <li><a href="{{zatara.facebook}}"><i class="fab fa-facebook"></i></a> </li>
+    <li><a href="{{zatara.instagram}}"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="{{zatara.twitter}}"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="{{zatara.messanger}}"><i class="fab fa-facebook-messenger"></i></a></li>
+  </ul>
+
+  <button class="button primary expanded " aria-label="Close menu" type="button" data-close>
+    <span aria-hidden="true" class="cerrar"><i class="fas fa-times"></i> CERRAR</span>
+  </button>
+</div>

@@ -7,6 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIEVENIDO | YEYOS DOJO</title>
     <link rel="stylesheet" href="assets/css/app.css">
+
+
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
 <body>
 
@@ -96,10 +118,10 @@
   
   </div>
   <!-- HERO -->
-  <div class="grid-container full">
+  <div class="grid-container full" >
     <div class="grid-x">
       <div class="cell ">
-        <div class="hero-section">
+        <div class="hero-section" data-type="parallax" data-speed="-2">
           <div class="hero-section-text">
             <h1>🔥YEYOS DOJO🔥</h1>
             <h5>QUE EL ESPIRITU DE LUCHA NUNCA SE APAGUE</h5>
@@ -109,37 +131,48 @@
     </div>
   </div>
   
-  <!-- <div class="grid-container" id="orbit">
-    <div class="grid-x">
-      <div class="cell medium-8 medium-offset-2">
-        <div class="row">
-          <div class="columns">
-            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-use-m-u-i="false" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" >
-              <ul class="orbit-container">
-                <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-                <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-                <li class="is-active orbit-slide">
-                  <img class="orbit-image" src="../assets/img/yeyos-orbit/2.jpg" alt="Space">
-  
-                </li>
-                <li class="orbit-slide">
-                  <img class="orbit-image" src="../assets/img/yeyos-orbit/1.jpg" alt="Space">
-  
-                </li>
-                <li class="orbit-slide">
-                  <img class="orbit-image" src="../assets/img/yeyos-orbit/3.jpg" alt="Space">
-  
-                </li>
-                <li class="orbit-slide">
-                  <img class="orbit-image" src="../assets/img/yeyos-orbit/4.jpg" alt="Space">
-  
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+  <!-- <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+    <div class="orbit-wrapper">
+      <div class="orbit-controls">
+        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
       </div>
+      <ul class="orbit-container">
+        <li class="is-active orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="https://placehold.it/1200x600/999?text=Slide-1" alt="Space">
+            <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="https://placehold.it/1200x600/888?text=Slide-2" alt="Space">
+            <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="https://placehold.it/1200x600/777?text=Slide-3" alt="Space">
+            <figcaption class="orbit-caption">Encapsulating</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="https://placehold.it/1200x600/666&text=Slide-4" alt="Space">
+            <figcaption class="orbit-caption">Outta This World</figcaption>
+          </figure>
+        </li>
+      </ul>
     </div>
+    <nav class="orbit-bullets">
+      <button class="is-active" data-slide="0">
+        <span class="show-for-sr">First slide details.</span>
+        <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+      </button>
+      <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+      <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+      <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+    </nav>
   </div>
    -->
   <div class="grid-container full">
@@ -164,22 +197,6 @@
       </div>
     </div>
   </div>
-  <!-- Profesores Reveal -->
-  <div class="reveal" id="guanchulo" data-reveal>
-    <button class="close-button" aria-label="Close menu" type="button" data-close>
-      <span aria-hidden="true">&times;</span>
-    </button>
-  
-    <h1>Guanchulo</h1>
-    <img src="assets/img/profesores/guanchulo.jpg">
-    <p class="lead">Your couch. It is mine.</p>
-    <p>I'm a co</p>
-  
-    <button class="button primary expanded " aria-label="Close menu" type="button" data-close>
-      <span aria-hidden="true">CERRAR</span>
-    </button>
-  </div>
-  
   <div class="grid-container" id="profesores">
     <div class="grid-x grid-margin-x grid-padding-y">
       <div class="cell small-12 text-center">
@@ -193,9 +210,12 @@
             <a href="#" data-open="guanchulo"><img src="assets/img/profesores/guanchulo.jpg"></a>
           </div>
           <div class="card-section">
-            <a href="#"><h3 class="card-product-name">Guanchulo</h3></a>
-            <h5 class="card-product-price">Head Coach</h5>
-            <p class="card-product-description">Lornem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+            <a href="#" data-open="guanchulo"><h3 class="card-product-name">Guanchulo</h3></a>
+            <h5 class="card-product-price">Director / Profesor</h5>
+            <section class="paises">
+              <span class="flag-icons CL"></span> <span class="flag-icons PE"></span> <span class="flag-icons BO"></span> <span class="flag-icons TW"></span>  <span class="flag-icons SG"></span> <span class="flag-icons JP"></span>
+            </section>
+            <p class="card-product-description text-truncate">Fundador de Yeyos Dojo. Realizó su debut el año 2005 en Rancagua. El año 2013 emprende viaje a Japón para desarrollarse profesionalmente como luchador en la prestigiosa empresa DDT durante 3 años, tiempo donde adquirió gran parte de los conocimientos que se imparten en Yeyos Dojo. Además tiene experiencia en lugares como Bolivia, Perú, Taiwán, Singapur, entre otros. Hoy es rostro recurrente en los eventos de 5 Luchas Clandestino.</p>
           </div>
         </div>
   
@@ -204,13 +224,16 @@
       <div class="cell medium-4">
         <div class="card card-product">
           <div class="card-product-img-wrapper">
-            <a class="button expanded text-uppercase">VER MÁS</a>
-            <a href="#"><img src="assets/img/profesores/alejandroSaez.jpg"></a>
+            <a data-open="alejandro" class="button expanded text-uppercase">VER MÁS</a>
+            <a data-open="alejandro"><img src="assets/img/profesores/alejandroSaez.jpg"></a>
           </div>
           <div class="card-section">
-            <a href="#"><h3 class="card-product-name">Alejandro Sáez</h3></a>
-            <h5 class="card-product-price">Coach</h5>
-            <p class="card-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+            <a data-open="alejandro"><h3 class="card-product-name">Alejandro Sáez</h3></a>
+            <h5 class="card-product-price">Profesor</h5>
+            <section class="paises">
+              <span class="flag-icons CL"></span> <span class="flag-icons PE"></span> <span class="flag-icons MX"></span> <span class="flag-icons AR"></span> <span class="flag-icons BR"></span>  <span class="flag-icons JP"></span> <span class="flag-icons US"></span>
+            </section>
+            <p class="card-product-description text-truncate">Debuta como luchador el año 2002 en Santiago. Con una basta experiencia en Chile, donde ha destacado en diversas asociaciones, también lo ha hecho en el extranjero. Debutó en Japón el año 2014, en Pro Wrestiling Noah, donde retornaría el año 2016. El mismo año marcaría un hito inédito para Lucha Libre chilena, transformándose en el primer luchador chileno en participar en la WWE. XL fue uno de los 32 participantes en el torneo WWE Cruiserweight Classic, donde se enfrentó a Gran Metalik, actual rostro de RAW. En 2017 funda 5 Luchas Clandestino, promoción que se ha ganado el respeto y admiración tanto en Chile como en Sudamérica. Todo este recorrido le permiten entregar un gran conocimiento y experiencia a sus alumnos sobre el ring.</p>
           </div>
         </div>
   
@@ -219,13 +242,16 @@
       <div class="cell medium-4">
         <div class="card card-product">
           <div class="card-product-img-wrapper">
-            <a class="button expanded text-uppercase">VER MÁS</a>
-            <a href="#"><img src="assets/img/profesores/zatara.jpg"></a>
+            <a class="button expanded text-uppercase" data-open="zatara">VER MÁS</a>
+            <a data-open="zatara"><img src="assets/img/profesores/zatara.jpg"></a>
           </div>
           <div class="card-section">
-            <a href="#"><h3 class="card-product-name">Zatara</h3></a>
-            <h5 class="card-product-price">Coach</h5>
-            <p class="card-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+            <a data-open="zatara"><h3 class="card-product-name">Zatara</h3></a>
+            <h5 class="card-product-price">Profesora</h5>
+            <section class="paises">
+              <span class="flag-icons  CL"></span> <span class="flag-icons PE"></span> <span class="flag-icons MX"></span> <span class="flag-icons US"></span>
+            </section>
+            <p class="card-product-description text-truncate">Debuta como luchadora el año 2008 en Santiago, destacándose de inmediato en el circuito femenino. Luego de diversos títulos y participaciones en distintas promociones de Chile, y de haber debutado el 2018 en México, es confirmada como la primera mujer chilena en participar en un torneo de la WWE. Zatara participó el 2018 en la segunda edición del torneo WWE Mae Young Classic, donde lucharía contra Tegan Nox, actual rostro de NXT. El mismo año participa en el Tryout realizado en Chile por la WWE, donde obtendría recursos y conocimientos que junto a los obtenidos en su experiencia nacional e internacional, la transforman en una luchadora idea para transmitir conocimientos tanto a luchadores ya formados, como a futuros luchadores.</p>
           </div>
         </div>
       </div>
@@ -238,13 +264,16 @@
       <div class="cell medium-4 medium-offset-2">
         <div class="card card-product">
           <div class="card-product-img-wrapper">
-            <a class="button expanded text-uppercase">VER MÁS</a>
-            <a href="#"><img src="assets/img/profesores/zg.jpg"></a>
+            <a data-open="juan" class="button expanded text-uppercase">VER MÁS</a>
+            <a data-open="juan" ><img src="assets/img/profesores/zg.jpg"></a>
           </div>
           <div class="card-section">
-            <a href="#"><h3 class="card-product-name">Juan Contreras</h3></a>
-            <h5 class="card-product-price">Coach</h5>
-            <p class="card-product-description">Lorem ipsum d olor sitamet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+            <a data-open="juan"><h3 class="card-product-name">Juan Contreras</h3></a>
+            <h5 class="card-product-price">Profesor / Preparador Fisico</h5>
+            <section class="paises">
+              <span class="flag-icons  CL"></span>
+            </section>
+            <p class="card-product-description text-truncate">Hace su debut como luchador el año 2017, haciendo su carrera principalmente en 5 Luchas Clandestino. Es estudiante de Preparador Físico en la Universidad Santo Tomás, conocimientos que pone en práctica en sus exigentes clases en Yeyos Dojo.</p>
           </div>
         </div>
       </div>
@@ -253,18 +282,149 @@
       <div class="cell medium-4">
         <div class="card card-product">
           <div class="card-product-img-wrapper">
-            <a class="button expanded text-uppercase">VER MÁS</a>
-            <a href="#"><img src="assets/img/profesores/azagoth.jpg"></a>
+            <a data-open="azagoth" class="button expanded text-uppercase">VER MÁS+</a>
+            <a data-open="azagoth"><img src="assets/img/profesores/azagoth.jpg"></a>
           </div>
           <div class="card-section">
-            <a href="#"><h3 class="card-product-name">AZAGOTH</h3></a>
-            <h5 class="card-product-price">Coach Promo</h5>
-            <p class="card-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+            <a data-open="azagoth"><h3 class="card-product-name">Azagoth</h3></a>
+            <h5 class="card-product-price">Profesor Promos</h5>
+            <section class="paises">
+              <span class="flag-icons  CL"></span>
+            </section>
+            <p class="card-product-description text-truncate">Debuta en la Lucha Libre como manager a fines de la década de los 90 en Titanes del Ring, donde ya destacaba por su famosa técnica de Firebreating. Posteriormente debuta como luchador, donde se caracteriza por luchas extremas. Como manager ha representado a destacados luchadores nacionales, donde la piromanía ha sido siempre su característica. Con cursos de locución y más de 20 años de carrera en la Lucha Libre, es el personaje más indicado en Chile para realizar cursos de promos; todo este conocimiento es aprovechado actualmente por los alumnos del Yeyos Dojo.</p>
           </div>
         </div>
       </div>
     </div>
   
+  </div>
+  <div class="reveal" id="guanchulo" data-reveal>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  
+    <h1>Guanchulo</h1>
+    <p class="lead"><i class="fas fa-angle-right"></i> Director / Profesor</p>
+    <img src="assets/img/profesores/guanchulo2.jpeg" alt="Diego en DDT Japón">
+  
+    <p class="margin-top-1">Fundador de Yeyos Dojo. Realizó su debut el año 2005 en Rancagua. El año 2013 emprende viaje a Japón para desarrollarse profesionalmente como luchador en la prestigiosa empresa DDT durante 3 años, tiempo donde adquirió gran parte de los conocimientos que se imparten en Yeyos Dojo. Además tiene experiencia en lugares como Bolivia, Perú, Taiwán, Singapur, entre otros. Hoy es rostro recurrente en los eventos de 5 Luchas Clandestino.</p>
+  
+    <ul class="no-bullet">
+      <li><b>Ha trabajado para empresas como:</b> DDT Pro Wrestling, WWE Latin American Try Out, Puzzle, New Taiwan Pro Wrestling, Grapple Max, Gladiadores, 5 Luchas Clandestino.</li><br>
+      <li><b>Tours:</b> Chile, Perú, Bolivia, Taiwan, Singapur y Japón.</li>
+      <li><span class="flag-icons  CL"></span>  <span class="flag-icons PE"></span> <span class="flag-icons BO"></span>  <span class="flag-icons TW"></span>  <span class="flag-icons SG"></span>  <span class="flag-icons JP"></span></li>
+  
+    </ul>
+    <h5>Redes Sociales</h5>
+    <ul class="no-bullet rrss">
+      <li><a href="https://www.facebook.com/AO.Diego23"><i class="fab fa-facebook"></i></a> </li>
+      <li><a href="https://www.instagram.com/_guanchulo_/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/guanchulo"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="http://www.m.me/AO.Diego23"><i class="fab fa-facebook-messenger"></i></a></li>
+    </ul>
+  
+  
+    <button class="button primary expanded " aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true" class="cerrar"><b><i class="fas fa-times"></i> CERRAR</b></span>
+    </button>
+  </div>
+  <div class="reveal" id="zatara" data-reveal>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  
+    <h1>Zatara</h1>
+    <p class="lead"><i class="fas fa-angle-right"></i> Profesora</p>
+  
+    <img src="assets/img/profesores/zatara2.jpg" alt="Zatara en WWE">
+  
+    <p class="margin-top-1">Debuta como luchadora el año 2008 en Santiago, destacándose de inmediato en el circuito femenino. Luego de diversos títulos y participaciones en distintas promociones de Chile, y de haber debutado el 2018 en México, es confirmada como la primera mujer chilena en participar en un torneo de la WWE. Zatara participó el 2018 en la segunda edición del torneo WWE Mae Young Classic, donde lucharía contra Tegan Nox, actual rostro de NXT. El mismo año participa en el Tryout realizado en Chile por la WWE, donde obtendría recursos y conocimientos que junto a los obtenidos en su experiencia nacional e internacional, la transforman en una luchadora idea para transmitir conocimientos tanto a luchadores ya formados, como a futuros luchadores.</p>
+  
+    <ul class="no-bullet">
+      <li><b>Ha trabajado para empresas como:</b> WWE&#x27;s Mae Young Classic Tournament, WWE Latin American try Out, Dragonmania, Imperio, 5 Luchas  Clandestino.</li><br>
+      <li><b>Tours:</b> Chile, Mexico, Perú, USA.</li>
+      <li><span class="flag-icons  CL"></span> <span class="flag-icons PE"></span> <span class="flag-icons MX"></span> <span class="flag-icons US"></span></li>
+    </ul>
+    <h5>Redes Sociales</h5>
+    <ul class="no-bullet rrss">
+      <li><a href="https://www.facebook.com/ZataraProWrestler/"><i class="fab fa-facebook"></i></a> </li>
+      <li><a href="https://www.instagram.com/zatara.cabrona/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/ZataraCabrona"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="http://www.m.me/ZataraProWrestler"><i class="fab fa-facebook-messenger"></i></a></li>
+    </ul>
+  
+    <button class="button primary expanded " aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true" class="cerrar"><i class="fas fa-times"></i> CERRAR</span>
+    </button>
+  </div>
+  <div class="reveal" id="alejandro" data-reveal>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  
+    <h1>Alejandro Sáez</h1>
+    <p class="lead"><i class="fas fa-angle-right"></i> Profesor</p>
+    <img src="assets/img/profesores/alejandroSaez2.jpg" alt="Alejandro Sáez en WWE">
+  
+    <p class="margin-top-1">Debuta como luchador el año 2002 en Santiago. Con una basta experiencia en Chile, donde ha destacado en diversas asociaciones, también lo ha hecho en el extranjero. Debutó en Japón el año 2014, en Pro Wrestiling Noah, donde retornaría el año 2016. El mismo año marcaría un hito inédito para Lucha Libre chilena, transformándose en el primer luchador chileno en participar en la WWE. XL fue uno de los 32 participantes en el torneo WWE Cruiserweight Classic, donde se enfrentó a Gran Metalik, actual rostro de RAW. En 2017 funda 5 Luchas Clandestino, promoción que se ha ganado el respeto y admiración tanto en Chile como en Sudamérica. Todo este recorrido le permiten entregar un gran conocimiento y experiencia a sus alumnos sobre el ring.</p>
+  
+    <ul class="no-bullet">
+      <li><b>Ha trabajado para empresas como:</b> Pro Wrestling NOAH, WWE Cruiserweight Classic, WWE Latin American Try out, DTU, Gladiadores, BWF, Lucha Extrema, 5 Luchas Clandestino.</li><br>
+      <li><b>Tours:</b> Chile, Mexico, Perú, Brasil, Argentina, Japon, USA.</li>
+      <li><span class="flag-icons  CL"></span>  <span class="flag-icons PE"></span> <span class="flag-icons BO"></span>  <span class="flag-icons TW"></span>  <span class="flag-icons SG"></span>  <span class="flag-icons JP"></span></li>
+  
+    </ul>
+    <h5>Redes Sociales</h5>
+    <ul class="no-bullet rrss">
+      <li><a href="https://www.facebook.com/alejandroXtraLarge/"><i class="fab fa-facebook"></i></a> </li>
+      <li><a href="https://www.instagram.com/kbzaso/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/AlejandroSaezXL"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="http://www.m.me/alejandroXtraLarge"><i class="fab fa-facebook-messenger"></i></a></li>
+    </ul>
+  
+    <button class="button primary expanded " aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true" class="cerrar"><b><i class="fas fa-times"></i> CERRAR</b></span>
+    </button>
+  </div>
+  <div class="reveal" id="juan" data-reveal>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  
+    <h1>Juan Contreras</h1>
+    <p class="lead"><i class="fas fa-angle-right"></i> Profesor / Preparador Fisico</p>
+  
+    <p class="margin-top-1">Hace su debut como luchador el año 2017, haciendo su carrera principalmente en 5 Luchas Clandestino. Es estudiante de Preparador Físico en la Universidad Santo Tomás, conocimientos que pone en práctica en sus exigentes clases en Yeyos Dojo.</p>
+  
+    <b><p>Las clases de preparación fisica son los días Jueves a las 17:30 hrs.</p></b>
+  
+    <button class="button primary expanded " aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true" class="cerrar"><b><i class="fas fa-times"></i> CERRAR</b></span>
+    </button>
+  </div>
+  <div class="reveal" id="azagoth" data-reveal>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  
+    <h1>Azagoth</h1>
+    <p class="lead"><i class="fas fa-angle-right"></i> Profesor Promos</p>
+  
+    <p class="margin-top-1">Debuta en la Lucha Libre como manager a fines de la década de los 90 en Titanes del Ring, donde ya destacaba por su famosa técnica de Firebreating. Posteriormente debuta como luchador, donde se caracteriza por luchas extremas. Como manager ha representado a destacados luchadores nacionales, donde la piromanía ha sido siempre su característica. Con cursos de locución y más de 20 años de carrera en la Lucha Libre, es el personaje más indicado en Chile para realizar cursos de promos; todo este conocimiento es aprovechado actualmente por los alumnos del Yeyos Dojo.</p>
+  
+    <b><p>Sus clases son los dias Miercoles a las 17:30 hrs.</p></b>
+  
+    <h5>Redes Sociales</h5>
+    <ul class="no-bullet rrss">
+      <li><a href="https://www.facebook.com/Azagoth.FireLord"><i class="fab fa-facebook"></i></a> </li>
+      <li><a href="https://www.instagram.com/azagoth_firelord/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="http://www.m.me/Azagoth.FireLord"><i class="fab fa-facebook-messenger"></i></a></li>
+    </ul>
+  
+  
+    <button class="button primary expanded " aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true" class="cerrar"><b><i class="fas fa-times"></i> CERRAR</b></span>
+    </button>
   </div>
   <div class="grid-container full">
     <div class="grid-x">
@@ -276,7 +436,7 @@
       </div>
     </div>
   </div>
-  <!-- 
+  
   <div class="grid-container full" id="mapa">
     <div class="grid-x grid-margin-x margin-top-3">
       <div class="cell small-12 text-center"><h2>UBICACIÓN</h2></div>
@@ -286,7 +446,7 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
   <div class="grid-container full footer" id="footer">
     <div class="grid-x grid-padding-y">
   
@@ -309,8 +469,6 @@
           <li><a href="https://www.instagram.com/yeyos_dojo/"><i class="fab fa-instagram"></i></a></li>
           <li><a href="https://www.youtube.com/channel/UCb_TUUfER_7QVmX_g0OvB5A"><i class="fab fa-youtube"></i></a></li>
           <li><a href="http://www.m.me/yeyosdojo"><i class="fab fa-facebook-messenger"></i></a></li>
-  
-  
         </ul>
       </div>
   
@@ -319,35 +477,14 @@
   
 
 
-<!-- FORMULARIO DE CONTACTO -->
-  <div class="contact-panel" id="contact-panel" data-toggler=".is-active">
-    <a class="contact-panel-button" data-toggle="contact-panel">Escríbenos</a>
-    <form action="">
-      <div class="row">
-        <label>Nombre completo *
-          <input type="text" placeholder="Nombre completo">
-        </label>
-      </div>
-      <div class="row">
-        <label>Email *
-          <input type="email" placeholder="Direccion de Email">
-        </label>
-      </div>
-      <div class="row">
-        <label>Mensaje *
-          <textarea placeholder="Hola necesito información..." rows="3"></textarea>
-        </label>
-      </div>
-      <div class="contact-panel-actions">
-        <button class="cancel-button" data-toggle="contact-panel">Cancelar</button>
-        <input type="submit" class="button submit-button" value="Enviar">
-      </div>
-    </form>
-  </div>
-
 
 
 </div>
+<!-- Use generated lib -->
+ <link rel="stylesheet" href="assets/flag-icons/css/flag-icons.css">
+
+ <!-- Compressed -->
+ <link rel="stylesheet" href="assets/flag-icons/css/flag-icons.min.css">
 
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Ubuntu:400,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
