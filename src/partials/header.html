@@ -1,33 +1,70 @@
 <div id="header" class="grid-container full" data-sticky-container>
-  <div class="grid-x grid-padding-x grid-padding-y sticky" data-margin-top="0" style="width:100%;  background:white;" data-top-anchor="1"  data-sticky>
+  <div
+    class="grid-x grid-padding-x grid-padding-y sticky"
+    data-margin-top="0"
+    style="width: 100%; background: white;"
+    data-top-anchor="1"
+    data-sticky
+  >
     <div class="cell auto hide-for-small show-for-large"></div>
     <!-- LOGOTIPO -->
-      <div class="cell shrink padding-top-2 hide-for-small show-for-medium">
-        <a href="#header" data-smooth-scroll>
-          <img class="logo" src="assets/img/logo-yeyos@2x.png" alt="Logotipo Yeyos Dojo 2020">
-        </a>
-      </div>
-
-<!-- MENU DE NAVEGACION -->
-      <div class="cell shrink big-menu margin-top-1 hide-for-small show-for-medium menu-big">
-        <ul class="menu menu-hover-lines" data-smooth-scroll >
-          <li><a href="#quienes-somos" data-smooth-scroll><i class="fas fa-chevron-right"></i> Quien es Somos</a></li>
-          <li><a href="#profesores" data-smooth-scroll><i class="fas fa-chevron-right"></i> Profesores</a></li>
-          <li><a href="#horarios" data-smooth-scroll><i class="fas fa-chevron-right"></i> Horarios</a></li>
-          <li><a href="#planes" data-smooth-scroll><i class="fas fa-chevron-right"></i> Planes</a></li>
-          <li><a href="#mapa" data-smooth-scroll><i class="fas fa-chevron-right"></i> Ubicación</a></li>
-          <li><a href="#footer" data-smooth-scroll><i class="fas fa-chevron-right"></i> Contacto</a></li>
-        </ul>
-      </div>
-      <div class="cell auto hide-for-small show-for-large"></div>
-
+    <div class="cell shrink padding-top-2 hide-for-small show-for-medium">
+      <a href="#header" data-smooth-scroll>
+        <img
+          class="logo"
+          src="assets/img/logo-yeyos.png"
+          srcset="assets/img/logo-yeyos.png, assets/img/logo-yeyos@2x.png 2x"
+          alt="Logotipo Yeyos Dojo 2020"
+        />
+      </a>
     </div>
 
-    <!-- BOTON MENU SMALL DEVICE -->
-  <div class="grid-x">
-    <div class="cell small-12 show-for-small-only position-fixed-top" >
-      <button class="button big expanded " type="button" data-toggle="offCanvas"><h2>MENU</h2></button>
+    <!-- MENU DE NAVEGACION -->
+    <div
+      class="cell shrink big-menu margin-top-1 hide-for-small show-for-medium menu-big"
+    >
+      <ul class="menu menu-hover-lines" data-smooth-scroll>
+        <li>
+          <a href="#quienes-somos" data-smooth-scroll
+            ><i class="fas fa-chevron-right"></i> Quienes Somos</a
+          >
+        </li>
+        <li>
+          <a href="#profesores" data-smooth-scroll
+            ><i class="fas fa-chevron-right"></i> Profesores</a
+          >
+        </li>
+        <li>
+          <a href="#horarios" data-smooth-scroll
+            ><i class="fas fa-chevron-right"></i> Horarios</a
+          >
+        </li>
+        <li>
+          <a href="#planes" data-smooth-scroll
+            ><i class="fas fa-chevron-right"></i> Planes</a
+          >
+        </li>
+        <li>
+          <a href="#mapa" data-smooth-scroll
+            ><i class="fas fa-chevron-right"></i> Ubicación</a
+          >
+        </li>
+        <li>
+          <a href="#footer" data-smooth-scroll
+            ><i class="fas fa-chevron-right"></i> Contacto</a
+          >
+        </li>
+      </ul>
     </div>
+    <div class="cell auto hide-for-small show-for-large"></div>
   </div>
 
+  <!-- BOTON MENU SMALL DEVICE -->
+  <div class="grid-x">
+    <div class="cell small-12 show-for-small-only position-fixed-top">
+      <button class="button big expanded" type="button" data-toggle="offCanvas">
+        <h2>MENU</h2>
+      </button>
+    </div>
+  </div>
 </div>

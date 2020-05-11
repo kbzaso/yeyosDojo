@@ -1,8 +1,8 @@
 @charset 'utf-8';
 
-@import 'settings';
-@import 'foundation';
-@import 'motion-ui';
+@import "settings";
+@import "foundation";
+@import "motion-ui";
 
 // Global styles
 @include foundation-global-styles;
@@ -64,16 +64,13 @@
 @include motion-ui-animations;
 
 // SECCIONES
-@import 'profesores';
-@import 'quienes-somos';
-@import 'hero';
-@import 'form-contacto';
-@import 'footer';
+@import "profesores";
+@import "quienes-somos";
+@import "hero";
+@import "form-contacto";
+@import "footer";
 
-
-
-
-.logo{
+.logo {
   max-height: 50px;
 }
 
@@ -82,21 +79,25 @@
 //   border:5px solid $primary-color;
 // }
 
-
-h1, h2,h3,h4,h5,h6{
-  font-family: 'Alfa Slab One', cursive;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alfa Slab One", cursive;
 }
 
-#horario-planes{
-  background: #DBDBDB;
+#horario-planes {
+  background: #dbdbdb;
 }
-#header{
+#header {
   max-height: 500px !important;
 }
 
-.rrss li{
+.rrss li {
   padding-left: 3px;
-  font-size:2em;
+  font-size: 2em;
 }
 
 //  MENU LARGE
@@ -129,7 +130,7 @@ $menu-hover-lines-border-width: 3px;
   a::after {
     height: $menu-hover-lines-border-width;
     position: absolute;
-    content: '';
+    content: "";
     transition: $menu-hover-lines-transition;
     background-color: $primary-color;
     width: 0;
@@ -160,34 +161,34 @@ $menu-hover-lines-border-width: 3px;
 }
 
 // OFF CANVAS
-.off-canvas-menu{
+.off-canvas-menu {
   background: black;
 }
 
-.close-button span{
+.close-button span {
   color: $primary-color;
 }
 
-.contenido-offcanvas{
+.contenido-offcanvas {
   color: white;
-  li{
-    color:white;
+  li {
+    color: white;
   }
 }
 
 @media only screen and (max-width: 990px) {
   .big-menu {
-    font-size:.6rem;
+    font-size: 0.6rem;
   }
 }
 @media only screen and (max-width: 730px) {
-  .logo{
+  .logo {
     max-height: 25px;
   }
 }
 
 @media only screen and (max-width: 670px) and (min-width: 630px) {
-  .logo{
+  .logo {
     max-height: 20px;
   }
 }

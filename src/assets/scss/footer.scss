@@ -1,17 +1,20 @@
-.footer{
+.footer {
   background-color: black;
   color: white;
+  & a:hover {
+    color: white;
+  }
 }
 
-.rrss li{
+.rrss li {
   display: inline-block;
   font-size: 40px;
   color: $bg-quienes-somos;
   margin-right: 5px;
-  margin-top:0;
+  margin-top: 0;
   padding-top: 0;
 }
 
-.desc-footer{
+.desc-footer {
   color: $primary-color;
 }
